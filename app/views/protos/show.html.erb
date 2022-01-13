@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @proto.title %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @proto.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_proto_path(@proto) %> |
+<%= link_to 'Back', protos_path %>
